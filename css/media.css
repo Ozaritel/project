@@ -1,0 +1,776 @@
+@media(min-width: 320px)
+{
+	.ask{
+    width: 100%;
+    font-size: 20px;
+}
+	.answer{
+    /* width: 100%; */
+    font-size: 15px;
+}
+	.centerbuys{
+    width: 274px;
+    margin: 0 auto;
+}
+	.gotitem{
+    width: 127px;
+}
+	.getitem{
+    width: 126px;
+}
+	.imgopen{
+    top: -175px;
+    left: 90px;
+}
+	.imgsell{
+    left: 85px;
+}
+	.roulet{width: 260px;height: 220px;}
+	.random{font-size: 23px;}
+	.leftside{width: 125px;}
+	.linecenter{width: 129px;height: 216px;}
+	.rightside{
+	width: 125px;
+	}
+	.rouletbox{height: 200px;top: -208px;left: -342px;}
+	.rouletitem{width: 170px;}
+	.rouletback{
+	}
+	.hideleft{
+    height: 240px;
+    top: -420px;
+}
+	.hideright{
+    height: 240px;
+    left: 259px;
+    width: 2000px;
+    top: -665px;
+}
+	.openroulet{}
+	.initem{
+    width: 260px;
+}
+	.backhover{
+    width: 120px;
+    height: 156px;
+}
+	.buttona{
+    width: 100px;
+    font-size: 18px;
+    margin-top: 70px;
+}
+	.image{
+		width: 124px;
+		height: 160px;
+	}
+	.game{width: 288px;}
+	.gamename{width: 120px;font-size: 10px;}
+	.gamecost{width: 120px;font-size: 9px;margin-top: 126px;}
+	.status{font-size: 15px;}
+.mybuys{width: 50%;}
+.mytopup{
+	width: 50%;
+}
+.number{font-size: 15px;}
+.countpays{font-size: 15px;}
+.viapay{
+	font-size: 15px;
+}
+.nopadm{
+	padding: 0;
+}
+	.hoveronline{width: 82px;height: 92px;}
+	.itemname{
+    font-size: 11px;
+}
+	.bayitem{font-size: 12px;padding: 3px;margin-top: 19px;}
+	.notauth{font-size: 24px;}
+	.online{
+    border: 2px solid #e21712;
+    width: 100%;
+    height: 80%;
+}
+	.livename{
+    font-size: 11px;
+}
+	.checkmoney{}
+	.mobmenu ul li{margin-left: 14px;font-size: 27px;}
+	.log{height: 33px;margin-top: 21px;}
+	.paybc{height: 100px;}
+	.paypage{font-size: 35px;text-align: center;width: 100%;}
+	.paypage1{width: 100%;}
+	.closepay{
+    margin:  0 auto;
+    float: unset;
+    width: 214px;
+    margin-top: 25px;
+}
+	.but{
+    float: unset;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}	
+.liveitem{height: 120px;width: 86px;}
+.livem{width: 282px;margin: 0 auto;}
+}
+@media(min-width: 375px)
+{
+	.answer{
+    font-size: 16px;
+}
+	.centerbuys{
+    width: 330px;
+}
+	.gotitem{
+    width: 155px;
+    height: 190px;
+}
+	.goodimg{}
+	.goodimg img{}
+	.getitem{
+    width: 153px;
+    height: 188px;
+    top: -188px;
+}
+	.imgopen{
+    top: -195px;
+    left: 120px;
+}
+	.imgsell{
+    left: 114px;
+    top: -200px;
+}
+	.initem{
+    width: 320px;
+}
+	.roulet{width: 320px;}
+	.random{font-size: 28px;}
+	.leftside{width: 150px;}
+	.linecenter{width: 159px;}
+	.rightside{
+	width: 150px;
+	}
+	.rouletbox{left: -313px;}
+	.hideright{
+    left: 320px;
+}
+	.openroulet{}
+	.backhover{
+    width: 146px;
+    height: 186px;
+}
+	.buttona{
+    width: 110px;
+    font-size: 20px;
+    margin-top: 80px;
+}.image{
+		width: 150px;
+		height: 190px;
+	}
+	.game{width: 340px;}
+	.gamename{width: 146px;font-size: 12px;}
+	.gamecost{
+		width: 146px;
+		font-size: 11px;
+		margin-top: 153px;
+	}
+	.hoveronline{width: 101px;height: 116px;}
+	.itemname{
+    font-size: 14px;
+}
+	.bayitem{
+    margin-top: 27px;
+    padding: 3px;
+    font-size: 14px;
+}
+	.livename{
+    font-size: 13px;
+}
+	.mobmenu ul li{font-size: 24px;}
+	.log{height: 40px;margin-top: 18px;}
+	.liveitem{
+	width: 105px;
+	height: 150px;
+	}
+	.livem{
+	width: 339px;
+	}
+}
+@media(min-width: 414px)
+{
+	.centerbuys{
+    width: 370px;
+}
+	.gotitem{
+    width: 175px;
+    height: 210px;
+}
+	.getitem{
+    width: 173px;
+    top: -208px;
+    height: 208px;
+}
+	.imgopen{
+    top: -215px;
+    left: 140px;
+}
+	.imgopen img{}
+	.keygame{}
+	.imgsell{
+    left: 134px;
+    top: -220px;
+}
+	.initem{
+    width: 350px;
+}
+	.roulet{width: 350px;}
+	.random{font-size: 31px;}
+	.leftside{width: 150px;}
+	.linecenter{width: 179px;}
+	.rightside{
+	width: 150px;
+	}
+	.rouletbox{left: -320px;}
+	.hideright{
+    left: 349px;
+}
+	.openroulet{}
+	.backhover{
+    width: 170px;
+    height: 226px;
+}
+	.buttona{
+    width: 120px;
+    font-size: 23px;
+    margin-top: 100px;
+}.image{
+		width: 174px;
+		height: 230px;
+	}
+	.game{width: 388px;}
+	.gamename{width: 170px;font-size: 14px;}
+	.gamecost{
+		font-size: 13px;
+		width: 170px;
+		margin-top: 190px;
+	}
+	.hoveronline{width: 86px;height: 100px;}
+	.itemname{
+    font-size: 12px;
+}
+	.bayitem{
+    font-size: 11px;
+    margin-top: 23px;
+}
+	.livename{
+    font-size: 12px;
+}
+	.checkmoney{
+		height: 130px;
+	}
+	.mobmenu ul li{font-size: 22px;}
+	.liveitem{
+    width: 90px;
+    height: 130px;
+}
+	.livem{
+    width: 294px;
+    margin: 0 auto;
+}
+}
+@media(min-width: 568px)
+{
+	.centerbuys{
+    width: 525px;
+}
+	.gotitem{
+    width: 165px;
+    height: 200px;
+}
+	.getitem{
+    width: 163px;
+    height: 198px;
+    top: -198px;
+}
+	.imgopen{
+    top: -205px;
+    left: 130px;
+}
+	.imgopen img{}
+	.keygame{}
+	.imgsell{
+    top: -210px;
+    left: 123px;
+}
+	.initem{
+    width: 504px;
+}
+	.roulet{width: 504px;}
+	.linecenter{width: 251px;}
+	.rouletbox{float: -280px;left: -220px;}
+	.hideright{
+    left: 504px;
+}
+	.backhover{
+    width: 149px;
+    height: 176px;
+}
+	.buttona{
+    font-size: 20px;
+    width: 110px;
+    margin-top: 75px;
+}.image{
+		width: 153px;
+		height: 180px;
+	}
+	.game{width: 520px;}
+	.gamename{width: 149px;font-size: 13px;}
+	.gamecost{
+		width: 149px;
+		font-size: 11px;
+		margin-top: 143px;
+	}
+	.hoveronline{width: 86px;height: 100px;}
+	.itemname{
+    font-size: 12px;
+}
+	.bayitem{
+    font-size: 12px;
+    margin-top: 18px;
+}
+	.livename{
+    font-size: 12px;
+}
+	.checkmoney{
+		height: 200px;
+	}
+	.mobmenu ul li{font-size: 20px;}
+	.log{
+		width: 60%;
+		margin-top: 15px;
+		height: 45px;
+	}
+	.liveitem{}
+	.livem{
+    width: 294px;
+    margin: 0 auto;
+}
+
+}
+@media(min-width: 667px)
+{
+	.centerbuys{
+    width: 624px;
+}
+	.gotitem{
+    width: 146px;
+    height: 180px;
+}
+	.getitem{
+    width: 144px;
+    height: 178px;
+    top: -178px;
+}
+	.imgopen{
+    top: -185px;
+    left: 110px;
+}
+	.imgsell{
+    top: -190px;
+    left: 104px;
+}
+	.initem{
+    width: 602px;
+}
+	.roulet{width: 602px;}
+	.linecenter{width: 300px;}
+	.rouletbox{left: -172px;}
+	.hideright{
+    left: 602px;
+}
+	.openroulet{}
+	.backhover{
+    width: 186px;
+    height: 232px;
+}
+	.buttona{
+    width: 130px;
+    font-size: 23px;
+    margin-top: 100px;
+}.image{
+		width: 190px;
+		height: 236px;
+	}
+	.game{width: 630px;}
+	.gamename{width: 186px;font-size: 16px;}
+	.gamecost{
+		width: 186px;
+		margin-top: 199px;
+	}
+	.hoveronline{width: 96px;height: 112px;}
+	.itemname{
+    font-size: 14px;
+}
+	.bayitem{
+    margin-top: 25px;
+    font-size: 14px;
+}
+	.online{}
+	.livename{
+    font-size: 14px;
+}
+	.checkmoney{
+		height: 250px;
+	}
+	.mobmenu ul li{font-size: 27px;}
+	.log{
+		height: 40px;
+		width: 50%;
+		margin-top: 18px;
+	}
+	.liveitem{
+    /* width: 203px; */
+    width: 100px;
+    height: 145px;
+}
+	.livem{
+    width: 324px;
+    margin: 0 auto;
+}
+
+}
+@media(min-width: 736px)
+{
+	.centerbuys{
+    width: 692px;
+}
+	.gotitem{
+    width: 163px;
+    height: 200px;
+}
+	.getitem{
+    width: 161px;
+    height: 198px;
+    top: -198px;
+}
+	.imgopen{
+    top: -205px;
+    left: 125px;
+}
+	.imgsell{
+    top: -210px;
+    left: 122px;
+}
+	.initem{
+    width: 672px;
+}
+	.roulet{width: 672px;}
+	.linecenter{width: 336px;}
+	.rouletbox{left: -135px;}
+	.hideright{
+    left: 672px;
+}
+	.hoveronline{height: 112px;width: 96px;}
+	.itemname{
+    font-size: 14px;
+}
+	.bayitem{
+    margin-top: 26px;
+}
+	.online{}
+	.livename{
+    font-size: 14px;
+}
+	.checkmoney{
+		height: 280px;
+	}
+	.mobmenu ul li{font-size: 27px;}
+	.log{
+		margin-top: 18px;
+		height: 40px;
+		width: 49%;
+	}
+	.paypage{width: 100%;}
+	.paypage1{
+		width: 100%;
+	}
+	.livem{
+    width: 324px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+}
+@media(min-width: 768px)
+{
+	.marin{
+    width: 554px;
+    margin: 0 auto;
+}
+	.centerbuys{
+    width: 519px;
+}
+	.backhover{
+    width: 156px;
+    height: 196px;
+}
+	.buttona{
+    margin-top: 90px;
+}
+	.image{
+		width: 160px;
+		height: 200px;
+	}
+	.game{width: 720px;}
+	.gamename{font-size: 13px;width: 156px;}
+	.gamecost{
+		width: 156px;
+		font-size: 14px;
+		margin-top: 158px;
+	}
+	.mybuys{width: unset;}
+.mytopup{
+	width: unset;
+}.status{font-size: 18px;}
+.paymants{
+
+}
+.number{font-size: 18px;}
+.countpays{font-size: 18px;}
+.viapay{
+	font-size: 18px;
+}
+.nopadm{
+	padding-left: 15px;
+	padding-right: 15px;
+}.hoveronline{width: 106px;height: 120px;}
+	.itemname{
+    font-size: 15px;
+}
+	.bayitem{
+    margin-top: 27px;
+}
+	.notauth{
+		font-size: 32px;
+	}
+	.online{}
+	.livename{
+    font-size: 15px;
+}
+	.closepay{
+    margin: unset;
+    float: right;
+    width: unset;
+    margin-right: 35px;
+    margin-top: 25px;
+}
+	.but{
+    margin: unset;
+    margin-left: 35px;
+    margin-top: 25px;
+    float: left;
+}
+	.checkmoney{
+		height: 75px;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+	.menu ul li{font-size: 25px;padding-top: 17px;}
+	.paybc{background-color: #e21712;font-family: BebasNeueRegular;height: 75px;}
+	.paypage{float: left;width: 50%;font-size: 40px;color: black;margin-top: 10px;text-align: left;}
+	.paypage1{
+		text-align: right;
+		font-size: 40px;
+		margin-top: 10px;
+		color: white;
+		float: left;
+		width: 50%;
+	}
+	.liveitem{
+    height: 155px;
+    width: 110px;
+}
+	.livem{
+    width: unset;
+    height: unset;
+}
+
+}
+@media(min-width: 1024px)
+{
+	.ask{
+    width: 65%;
+    font-size: 26px;
+}
+	.answer{
+    font-size: 20px;
+}
+	.faq{}
+	.marin{
+    width: 615px;
+}
+	.centerbuys{
+    width: 692px;
+}
+	.backhover{
+    width: 196px;
+    height: 276px;
+}
+	.buttona{
+    font-size: 28px;
+    width: 155px;
+    margin-top: 125px;
+}
+	.image{
+		width: 200px;
+		height: 280px;
+	}
+	.game{width: 880px;}
+	.gamename{width: 196px;font-size: 16px;}
+	.gamecost{
+		width: 196px;
+		margin-top: 233px;
+		font-size: 18px;
+	}
+	.hoveronline{width: 103px;height: 120px;}
+	.bayitem{
+    margin-top: 30px;
+}
+	.checkmoney{
+		height: 110px;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+	.menu ul li{
+		font-size: 31px;
+		padding-top: 12px;
+	}
+	.liveitem{
+    width: 107px;
+    height: 155px;
+}
+	.livem{
+    width: 920px;
+}
+
+}
+@media(min-width: 1366px)
+{
+	.ask{
+    width: 50%;
+    font-size: 25px;
+}
+	.centerbuys{
+    width: 840px;
+    margin: 0 auto;
+}
+	.gotitem{
+    width: 130px;
+    height: 170px;
+}
+	.getitem{
+    top: -168px;
+    width: 128px;
+    height: 168px;
+}
+	.imgopen{
+    top: -175px;
+    left: 95px;
+}
+	.imgopen img{}
+	.keygame{}
+	.imgsell{
+    top: -180px;
+    left: 90px;
+}
+	.initem{
+    width: 800px;
+    margin: 0 auto;
+}
+	.roulet{height: 300px;width: 800px;border-top: 2px solid #ff0600;border-bottom: 2px solid #ff0500;position: relative;z-index: 4;top: 1px;}
+	.random{
+
+	}
+	.leftside{background-image: url(../img/l1.png);width: 150px;height: 100%;float: left;background-image: cover;}
+	.linecenter{width: 399px;height: 298px;position: absolute;border-right: 2px solid #e21712;}
+	.rightside{
+	background-image: url(../img/r1.png);
+	width: 150px;
+	height: 100%;
+	float: right;
+	}
+	.rouletbox{position: relative;width: 10000px;height: 260px;left: -175px;overflow: hidden;z-index: -1;top: -280px;}
+	.rouletitem{width: 210px;height: 100%;float: left;background-size: cover;margin-left: 15px;border: 2px solid darkred;}
+	.hideleft{
+    width: 2000px;
+    position: relative;
+    height: 300px;
+    top: -558px;
+    left: -2000px;
+    background-color: #1a1515;
+}
+	.hideright{
+    width: 2000px;
+    position: relative;
+    height: 300px;
+    top: -858px;
+    left: 800px;
+    background-color: #1a1515;
+}
+	.backhover{
+    width: 246px;
+    height: 321px;
+}
+	.buttona{
+    width: 200px;
+    margin-top: 145px;
+}
+	.game{width: 1080px;margin: 0 auto;}
+	.image{
+		width: 250px;
+		height: 325px;
+	}
+	.gamename{width: 246px;font-size: 21px;}
+	.gamecost{
+		margin-top: 276px;
+		width: 246px;
+		font-size: 20px;
+	}
+	.hoveronline{width: 129px;height: 144px;}
+	.itemname{
+    font-size: 16px;
+}
+	.bayitem{
+    margin-top: 50px;
+}
+	.paypage1{
+		text-align: right;
+		font-size: 40px;
+		margin-top: 10px;
+		color: white;
+		float: left;
+		width: 50%;
+	}
+	.liveitem{
+    width: 132px;
+    height: 185px;
+}
+	.livem{
+    width: 1120px;
+}
+
+}
+@media(min-width: 1440px)
+{
+}
+@media (min-width: 1200px)
+{
+	.widthsize{width: 970px !important;}
+}
+@media (min-width: 992px)
+{
+	.widthsize{
+		width: 900px;
+	}
+}
