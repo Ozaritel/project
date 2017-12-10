@@ -40,13 +40,7 @@
       <div class="additem">
         Добавить товар
       </div>
-      <form action="add.php" method="post" enctype="multipart/form-data" accept-charset="utf-8">
-          <div class="addname">Название</div><input type="text" class="addn" name="nameitem"> 
-          <div class="addprice">Цена</div><input class="addp" type="text" name="price"> 
-          <div class="addprice">Продажа</div><input class="addp" type="text" name="pricesell">
-          <input class="addf" type="file" name="img">
-          <input class="addsend" type="submit" name="send-request">
-      </form>
+      
       </div>
       <div class="addnal">
         Добавить наличие товара
