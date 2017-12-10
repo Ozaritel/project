@@ -25,14 +25,18 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   </head>
   <body>
-  <?
-    if($_SESSION['userid']=='37915630')
-    {
-  ?>
+    <?
+      if($_SESSION['userid']=='37915630')
+      {
+    ?>
   	<div class="container-fluid paybc nopad">
   		<div class="container nopad widthsize">
-  			<div class="paypage">Админ панель</div>
-  			<div class="paypage1">STEAMSELLS.COM</div>
+  			<div class="paypage">
+          Админ панель
+        </div>
+  			<div class="paypage1">
+          STEAMSELLS.COM
+        </div>
   		</div>
   	</div>
     <div class="container">
@@ -40,7 +44,22 @@
       <div class="additem">
         Добавить товар
       </div>
-      
+      <form action="add.php" method="post" enctype="multipart/form-data" accept-charset="utf-8">
+          <div class="addname">
+            Название
+          </div>
+          <input type="text" class="addn" name="nameitem"> 
+          <div class="addprice">
+            Цена
+          </div>
+          <input class="addp" type="text" name="price"> 
+          <div class="addprice">
+            Продажа
+          </div>
+          <input class="addp" type="text" name="pricesell">
+          <input class="addf" type="file" name="img">
+          <input class="addsend" type="submit" name="send-request">
+      </form>
       </div>
       <div class="addnal">
         Добавить наличие товара
@@ -58,8 +77,12 @@
           <div class='formnal'><input type="text"  class="add1" name="add1">
             <div>
                 <select class='win' name="win1">
-                  <option value="no" selected>НЕТ</option>
-                  <option value="yes">да</option>
+                  <option value="no" selected>
+                    НЕТ
+                  </option>
+                  <option value="yes">
+                    да
+                  </option>
                 </select>
             </div>
           </div>
