@@ -92,8 +92,7 @@
 	  </div>
 	</div>
 	  <div class="back-popup newclass">
-	  	<div class="popup">Все изменения сохранены!
-	  	</div>
+	  	<div class="popup">Все изменения сохранены!</div>
 	  </div>
 	  <div class="money-popup">
 	  	<div class="contant-popup"><div class="popup-header">Подтверждение E-mail на сайте <span>PLAYCOINS.RU</span></div>
@@ -102,9 +101,7 @@
 			</div>
 	  </div>
 	  <div class="email-popup">
-	  	<div class="contant-popup"><div class="popup-header">Подтверждение E-mail на сайте <span>PLAYCOINS.RU</span></div>
-			  	На указанный e-mail было отправленно письмо, для подтверждения.
-					<div class="close-email-popup"></div>
+	  	<div class="contant-popup"><div class="popup-header">Подтверждение E-mail на сайте <span><a href="http://playcoins.ru">PLAYCOINS.RU</a></span></div>На указанный e-mail было отправленно письмо, для подтверждения.<div class="close-email-popup"></div>
 			</div>
 		</div>
 	</div>
