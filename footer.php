@@ -91,7 +91,7 @@
 		  </div>
 	  </div>
 	</div>
-	  <div class="back-popup">
+	  <div class="back-popup newclass">
 	  	<div class="popup">Все изменения сохранены!
 	  	</div>
 	  </div>
