@@ -1,1 +1,1 @@
-<?php $title = 'PLAYCOINS - Продажа и покупка игровых ценностей';require "connectall.php";?>
+<?php $title = 'Тестовый сайт';require "connectall.php";?>
