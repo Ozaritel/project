@@ -1,6 +1,6 @@
 <div class="lastvisited">
 	<div class="last-visited">Вы интересовались</div>
-	<div class="block-visited">
+	<div class="block-visited somenewclass">
 		<?
 			include $_SERVER['DOCUMENT_ROOT']."/datebase/dbconnect.php";
 			$countcook=0;
