@@ -79,8 +79,8 @@ $userids = $db->query("SELECT uid FROM users WHERE hash='".$_COOKIE['userid']."'
   							if(!isset($_COOKIE["userid"]))
   							{
                   ?>
-                  <a href="/profile/auth"><li class="navbar entervk"><span>Авторизоваться</span></li></a>
-                  <a href="/profile/registration"><li class="navbar entervk"><span>Зарегистрироваться</span></li></a>
+                  <a href="/profile/auth/"><li class="navbar entervk"><span>Авторизоваться</span></li></a>
+                  <a href="/profile/registration/"><li class="navbar entervk"><span>Зарегистрироваться</span></li></a>
                   <?
   							}
   							else{
