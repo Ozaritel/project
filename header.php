@@ -75,23 +75,23 @@ $userids = $db->query("SELECT uid FROM users WHERE hash='".$_COOKIE['userid']."'
 		  			<a href="#"><li class="navbar"><span>Услуги</span></li></a>
             <a href="#"><li class="navbar"><span>Предметы</span></li><a>
 		  			<a href="#"><li class="navbar"><span>О нас</span></li></a>
-		  			<?php
-  							if(!isset($_COOKIE["userid"]))
-  							{
-                  ?>
-                  <a href="/profile/auth/"><li class="navbar entervk"><span>Авторизоваться</span></li></a>
-                  <a href="/profile/registration/"><li class="navbar entervk"><span>Зарегистрироваться</span></li></a>
-                  <?
-  							}
-  							else{
-  								$row = $db->query("SELECT uid, uname, photo_big, moneyu FROM users WHERE uid =".$userids['uid'])->fetch();
-                  echo "<div class='topup-m' onclick='popupw()'>Пополнить Баланс</div>";
-								  echo "<div class='username-m'>".$row['uname']."";
-								  echo "<div class='money-m'>Баланс: <span class='moneyhave-m'>".$row['moneyu']." руб </span></div></div>";
-								  echo "<a href='/profile/'><div class='userphoto-m'><img src=".$row['photo_big']." class='profile-img-m'></div></a>";
-								  echo "<a href='/api/exit.php'><div class='exit-m'><img src='/img/exit.png'></div></a>";
-  							}
-  							?>
+		  			<!-- <?php
+                            if(!isset($_COOKIE["userid"]))
+                            {
+                              ?>
+                              <a href="/profile/auth/"><li class="navbar entervk"><span>Авторизоваться</span></li></a>
+                              <a href="/profile/registration/"><li class="navbar entervk"><span>Зарегистрироваться</span></li></a>
+                              <?
+                            }
+                            else{
+                              $row = $db->query("SELECT uid, uname, photo_big, moneyu FROM users WHERE uid =".$userids['uid'])->fetch();
+                              echo "<div class='topup-m' onclick='popupw()'>Пополнить Баланс</div>";
+                              echo "<div class='username-m'>".$row['uname']."";
+                              echo "<div class='money-m'>Баланс: <span class='moneyhave-m'>".$row['moneyu']." руб </span></div></div>";
+                              echo "<a href='/profile/'><div class='userphoto-m'><img src=".$row['photo_big']." class='profile-img-m'></div></a>";
+                              echo "<a href='/api/exit.php'><div class='exit-m'><img src='/img/exit.png'></div></a>";
+                            }
+                            ?> -->
 		  		</ul>
 	  		</div>
 	  		<div class="buttonmenu" onclick="menu()"></div>
