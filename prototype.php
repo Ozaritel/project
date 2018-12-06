@@ -8,7 +8,7 @@
   if($_COOKIE['userid']==$itemabout->getuserid())
   {
   	?>
-  	<div style="background-color: whitesmoke;">
+  	<div style="background: #fff">
 	  	<div class="container">
 	  		<form action="../profile/products/edit" method="POST">
 	  		<div class="redact">
