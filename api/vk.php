@@ -24,14 +24,12 @@ $row = $db->query("SELECT uid FROM users WHERE uid =".$user_id."")->fetch();
 $cook = $row['uid'];
 if($user_id == $row['uid'])
 {
-	SetCookie("userid",md5($cook+1474),time()+604800,"/");
+	SetCookie("userid",$cook,time()+604800,"/");
 }
 else
 {
-	$db->query("INSERT INTO users SET uid='".$data['id']."',hash='".md5($data['id']+1474)."', uname='".$data['first_name']." ".$data['last_name']."',photo_big='http://qqqqq.zzz.com.ua/img/flopuser.png',moneyu = 0");
-	$db->query("INSERT INTO emailcofirm SET uid='".$data['id']."', status=0");
-	$db->query("INSERT INTO userscommission SET userid ='".$data['id']."', commission=6");
-	SetCookie("userid",md5($data['id']+1474),time()+604800,"/");
+	$db->query("INSERT INTO users SET uid='".$data['id']."',uname='".$data['first_name']." ".$data['last_name']."',photo_big='http://qqqqq.zzz.com.ua/img/flopuser.png',moneyu = 0");
+	SetCookie("userid",$data['id'],time()+604800,"/");
 }
 $db = null;
 header("Location:../index.php");
