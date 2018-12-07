@@ -23,7 +23,6 @@
 		  		<div class="f-sections">Пользовательское соглашение</div>
 		  	</div>
 		  	<div class="block-f">
-		  		<div class="name-f">Личный кабинет</div>
 					<div class="f-sections"><a href="/profile/auth">Авторизация</a></div>
 					<div class="f-sections"><a href="/profile/registration">Регистрация</a></div>
 					<div class="f-sections"><a href="/profile/products/">Добавить товар</a></div>
