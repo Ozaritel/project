@@ -11,14 +11,7 @@ $data = json_decode(file_get_contents('https://api.vk.com/method/users.get?user_
 if(!$data)
 	exit("Токен не верный");
 $data = $data['response'][0];
-try {
-  $db = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
-  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $db->exec("set names utf8");
-}
-catch(PDOException $e) {
-    echo $e->getMessage();
-}
+
 $user_id = $data['id'];
 $row = $db->query("SELECT uid FROM users WHERE uid =".$user_id."")->fetch();
 $cook = $row['uid'];
